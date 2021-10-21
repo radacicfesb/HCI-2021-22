@@ -1,19 +1,10 @@
 import React from 'react'
 
+import Header from '../modules/header/header'
 const Hello = () => {
 
-    return (<header>
-        <div>Logo</div>
-        <nav>
-            <li>Home</li>
-            <li>About us</li>
-            <li>Showcase</li>
-            <li>Blog</li>
-            <li>Contact</li>
-            <li>Sign in</li>
-        </nav>
-    </header>
-        )
+    return <Header />
+    
 }
 
 export default Hello
